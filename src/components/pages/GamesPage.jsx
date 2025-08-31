@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
 import { Trophy, Star, ArrowRight } from 'lucide-react';
 import clashRoyaleImg from '../../assets/images/clash_royale_card_1.jpg';
-import brawlStarsImg from '../../assets/images/brawl_stars_card_1.jpg';
+import brawlStarsImg from '../../assets/brawl_stars_card_new.jpg';
 
 const GamesPage = ({ onNavigate }) => {
   const games = [

@@ -7,7 +7,7 @@ const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className="min-h-screen hero-gradient hero-pattern flex items-center justify-center p-4">
+    <div className="min-h-screen auth-page-background flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
@@ -16,10 +16,10 @@ const AuthPage = () => {
             alt="HeroBoost" 
             className="h-20 w-auto mx-auto mb-4"
           />
-          <h1 className="text-3xl font-bold text-white mb-2">
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">
             Bienvenue sur HeroBoost
           </h1>
-          <p className="text-white/80">
+          <p className="text-gray-700">
             Boostez vos comptes et vos performances sur vos jeux préférés
           </p>
         </div>

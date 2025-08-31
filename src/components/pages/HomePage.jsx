@@ -50,7 +50,7 @@ const HomePage = ({ onNavigate }) => {
         {/* Content */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Bienvenue sur <span className="text-yellow-300">HeroBoost</span>
+            Bienvenue sur <span className="text-yellow-300 font-orbitron">HeroBoost</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
             Boostez vos comptes et vos performances sur vos jeux préférés
